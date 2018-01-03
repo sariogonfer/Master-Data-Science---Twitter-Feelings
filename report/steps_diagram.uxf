@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>260</y>
+      <w>940</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Paso 2
+bg=blue
+layer=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>90</x>
+      <y>170</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>mapper
+bg=orange
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>120</y>
+      <w>940</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Paso 1
+bg=green
+layer=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>860</x>
+      <y>170</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>reducer
+bg=yellow
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>170</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>combiner
+bg=red
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>90</x>
+      <y>380</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>mapper
+bg=orange
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>380</x>
+      <y>380</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>860</x>
+      <y>380</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>reducer
+bg=yellow
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>170</y>
+      <w>270</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+(label, value), score</panel_attributes>
+    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>170</y>
+      <w>280</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+(label, value), (sum, count)</panel_attributes>
+    <additional_attributes>260.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>390</y>
+      <w>180</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>160.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>360</y>
+      <w>470</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Si label == HASHTAG -&gt; label, (score, count, value)</panel_attributes>
+    <additional_attributes>450.0;20.0;10.0;20.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>390</y>
+      <w>470</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+Si label != HASHTAG -&gt; (label, value), (count, score)</panel_attributes>
+    <additional_attributes>450.0;30.0;10.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>80</x>
+      <y>180</y>
+      <w>940</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+(label, value), (count, score)</panel_attributes>
+    <additional_attributes>10.0;220.0;10.0;160.0;920.0;160.0;920.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>390</y>
+      <w>500</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+(label, value), (count, score)</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;80.0;480.0;80.0;480.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>470</x>
+      <y>500</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>OUPUT</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

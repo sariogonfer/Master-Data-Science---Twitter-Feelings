@@ -1,0 +1,36 @@
+\usepackage{titling}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{fontspec}
+\renewcommand{\contentsname}{Índice}
+
+
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\linespread{1.1}
+ \pagestyle{fancy}
+ \fancyhead[LO,LE]{Sistemas Distribuidos de Procesamiento de Datos, \thetitle}
+ \fancyhead[RO,RE]{\includegraphics[width=0.5cm]{./header/DSLab_logo_2.png}}
+ \fancyfoot[LO,LE]{Máster en Data Science. URJC, \thedate}
+ \cfoot{}
+ \fancyfoot[RE,RO]{Page\ \thepage\ of\ \protect\pageref{LastPage}}
+
+\renewcommand\headrulewidth{0.4pt}
+\renewcommand\footrulewidth{0.4pt}
+
+\pretitle{
+  \begin{center}
+  \LARGE
+  \includegraphics[width=5cm]{./header/logotipo_MDS.png}\\
+\vspace{0.5cm}
+\textbf{Máster en Data Science. URJC\\Técnicas y Métodos de Ciencia de Datos}\\
+}
+\posttitle{\end{center}}
+
+
+
